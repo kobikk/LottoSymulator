@@ -1,0 +1,82 @@
+body {
+    background-color: yellow;
+}
+.lottoLogo {
+    color: blue;
+    font-size: 60px;
+    width: 45%;
+    margin: 50px auto;
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+#instruction {
+    font-size: 25px;
+    margin: 0 0 35px 60px;
+}
+#message-box {
+    background-color: white;
+    border: 1px solid grey;
+    display: none;
+    font-size: 18px;
+    margin: 0 auto 50px;
+    padding: 15px;
+    width: 35%;
+}
+.lotto-form {
+    background-color: white;
+    border: 1px solid red;
+    margin: 0 auto;
+    padding: 30px;
+    width: 80%;
+}
+.btn {
+    border: 1px solid red;
+    color: red;
+    margin: 0 10px 10px 0;
+}
+.btn:nth-of-type(10n) {
+    margin-right: 0;
+}
+.btn,
+#accept {
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    width: 8.3%;
+}
+.active {
+    border-color: black;
+    color: black;
+}
+#accept {
+    border: 1px solid green;
+    color: green;
+    text-transform: uppercase;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#accept:hover {
+    background-color: green;
+    color: white;
+}
+#again {
+    margin: 0 auto;
+    width: 73%;
+}
+#btn-againnew,
+#btn-again {
+    border: 1px solid grey;
+    border-radius: 5%;
+    cursor: pointer;
+    padding: 5px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+#btn-againnew:hover,
+#btn-again:hover {
+    background-color: grey;
+    color: white;
+}
